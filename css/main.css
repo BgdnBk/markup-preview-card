@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2ebe3;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.preview {
+  margin: auto;
+  margin-top: 160px;
+  width: 32em;
+  height: 24em;
+
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.preview__card {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.preview__card img {
+  width: 32em;
+  height: 24em;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card__text {
+  margin: 0;
+  text-align: left;
+
+  letter-spacing: 0.5em;
+}
+
+.discription {
+  margin: 30px 30px 0 30px;
+  font-size: 11px;
+
+  color: #6c7289;
+}
+
+.parfum__name {
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+  font-family: Fraunces;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 2rem;
+
+  color: #1c232b;
+}
+
+.about__parfum {
+  font-family: Montserrat;
+  line-height: 1.3rem;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #3c8067;
+  color: #ffffff;
+
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+}
+
+.card__bottom:hover {
+  background-color: #003311;
+}
+
+.svg__icon {
+  margin-right: 10px;
+}
+
+.price {
+  font-family: Fraunces;
+  font-size: 24px;
+
+  color: #3c8067;
+}
+
+.old__price {
+  text-decoration: line-through;
+  padding-left: 20px;
+
+  color: #6c7289;
+}
