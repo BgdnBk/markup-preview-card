@@ -112,3 +112,38 @@ body {
 
   color: #6c7289;
 }
+
+@media screen and (max-width: 480px) {
+  .preview__card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+
+  .preview__card img {
+    background-image: url(../images/image-product-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+  .preview {
+    margin-top: 10px;
+    max-width: 330px;
+    min-height: 500px;
+  }
+
+  .discription {
+    margin-top: 5px;
+  }
+
+  .card__bottom {
+    margin-bottom: 20px;
+  }
+
+  .card__text {
+    margin-top: 10px;
+  }
+}
